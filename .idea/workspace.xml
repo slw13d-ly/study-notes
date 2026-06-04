@@ -1,53 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="72b6e286-a493-4328-a71c-f9a66455cc8c" name="변경" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/java/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/bin/ch01/sec06/Hello.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/ch02/sec01/VariableUseExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/study-notes/HelloJava.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/study-notes/HelloJava2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/study-notes/VariableInitializationExample.class" beforeDir="false" />
+    <list default="true" id="9e25caaa-ba9e-421f-a395-f71aa93999e4" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java/.idea/misc.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "slw13d-ly"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {}
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/slw13d-ly/study-notes.git&quot;,
+    &quot;accountId&quot;: &quot;235f7acf-99c8-4898-95ed-f2eb1cbefca1&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/slw13d-ly/study-notes.git",
-    "accountId": "cee48879-53bc-4a2d-b6cd-dea3dcba6b96"
-  }
-}]]></component>
-  <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
-  </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5,
-  "fromUser": false
-}]]></component>
-  <component name="ProjectId" id="3EeXb7qutMtYas0ItaY13mKl04l" />
+}</component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3EeUxgUBH5044088wi7blzxH8T8" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -56,66 +42,59 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/cyj/code/study-notes",
+    "last_opened_file_path": "C:/Users/SAMSUNG/Documents/★/CODE/study-notes",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "advanced.settings",
-    "애플리케이션.HelloJava.executor": "Run",
-    "애플리케이션.HelloJava2.executor": "Run"
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="애플리케이션.HelloJava2">
-    <configuration name="HelloJava" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HelloJava" />
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
       <module name="study-notes" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HelloJava2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HelloJava2" />
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
       <module name="study-notes" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+      <option name="filePath" />
+      <method v="2" />
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="애플리케이션.HelloJava2" />
-        <item itemvalue="애플리케이션.HelloJava" />
-      </list>
-    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.24374.151" />
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-IU-261.24374.151" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="TaskManager">
-    <task active="true" id="Default" summary="디폴트 작업">
-      <changelist id="72b6e286-a493-4328-a71c-f9a66455cc8c" name="변경" comment="" />
-      <created>1780540077643</created>
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9e25caaa-ba9e-421f-a395-f71aa93999e4" name="Changes" comment="" />
+      <created>1780538777668</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1780540077643</updated>
+      <updated>1780538777668</updated>
+      <workItem from="1780538780973" duration="109000" />
+      <workItem from="1780538911291" duration="28000" />
+      <workItem from="1780539020717" duration="1271000" />
+      <workItem from="1780557116672" duration="697000" />
+      <workItem from="1780588098012" duration="447000" />
+      <workItem from="1780588577831" duration="648000" />
     </task>
-    <task id="LOCAL-00001" summary="시작">
-      <option name="closed" value="true" />
-      <created>1780556521668</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1780556521668</updated>
-    </task>
-    <task id="LOCAL-00002" summary="변수">
-      <option name="closed" value="true" />
-      <created>1780556533356</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1780556533356</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,10 +110,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="시작" />
-    <MESSAGE value="변수" />
-    <option name="LAST_COMMIT_MESSAGE" value="변수" />
   </component>
 </project>
