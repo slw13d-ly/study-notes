@@ -93,7 +93,7 @@ PS C:\Users\SAMSUNG> java -version
 ### 바이트코드 파일과 자바 가상 머신
 
 - 바이트코드 파일
-  - 소스 파일( .java ) 작성 후 컴파일 시, 컴파일 결과 확장명( .class )인 바이트코드 파일 생성
+  - 소스 파일(.java) 작성 후 컴파일 시, 컴파일 결과 확장명(.class)인 바이트코드 파일 생성
 - 자바 가상 머신 JVM(Java Virtual Machine)
   - 바이트코드 파일 → java 명령어(기계어 번역 실행) → JDK와 함께 설치된 JVM을 구동시켜 바이트코드 파일을 완전히 기계어로 번역 + 실행
   - 운영체제에서 이해하는 기계어로 변역해야 하므로 운영체제 별 다르게 설치 (바이트코드 파일은 운영체제와 상관없이 모두 동일)
@@ -114,31 +114,25 @@ PS C:\Users\SAMSUNG> java -version
 
   - 패키지(package) - 소스파일 및 컴파일된 바이트코드 파일을 쉽게 관리하기 위함. 파일 시스템의 디렉터리와 비슷
 
-- 소스 작성 - [소스](/java/src/ch01/sec06/Hello.java)
-- 컴파일
+- 소스 작성 - [소스](src/HelloJava.java)
 
-  ```powershell
-  javac -d
-  ```
+- 컴파일 단계
+  - Hello.java 같은 소스 코드 작성
+  - 자바 컴파일러를 통해 소스 코드 컴파일
+    - `javac` 프로그램 사용(자바가 제공)
+      - `.java` → `.class` 파일 생성
+    - 자바 소스 코드 → 바이트코드로 변환해 자바 가상 머신이 더 빠르게 실행될 수 있게 최적화 + 문법 오류 검출
+  - 자바 프로그램 실행
+    - java 프로그램 사용(자바가 제공)
+    - 자바 가상 머신(JVM) 실행되면서 프로그램 작동 → hello.class를 실행
 
-### 코드 용어 이해
-
-- 패키지 선언
-
-  ```java
-  packge ch01.sec09; // 소스파일이 src/ch01/sec09 패키지에 있다.
-  ```
-
-  - 컴파일 후 생성되는 바이트코드 파일도 bin/ch01/sec09 패키지에 생성
+- 실행 과정
+  1. HelloJava 프로그램 실행
+  2. main() 메서드 실행 - 시작점
+  3. System.out.println("hello java") 을 만나 문자열 hello java 출력
+  4. main() 메서드의 {} 블럭이 끝나면 프로그램 종료
 
 - 클래스 선언
-
-  ```java
-  // Hello → 클래스명 = 소스파일명
-  public class Hello { // 클래스 블록
-
-  }
-  ```
 
   - 클래스 명명 규칙
     - 숫자 시작 x
@@ -147,27 +141,18 @@ PS C:\Users\SAMSUNG> java -version
 
   - 클래스 블록 - 중괄호 {...} 영역
     - 클래스의 정의 내용 작성
+    - 범위를 나타냄
 
 - 메소드 선언
-
-  ```java
-  // main → 메소드명
-  public static void main(String[] args) { // main() 메소드 블록
-
-  }
-  ```
-
   - main() 메소드 블록 - 중괄호 {...} 영역
-    - 바이트코드 파일 실행 시 메소드 블록 실행 => 프로그램 실행 진입점 이라고 함
+    - 바이트코드 파일 실행 시 메소드 블록 실행 => 프로그램 실행 시작점
 
 - 콘솔뷰에 출력
-
-  ```java
-  System.out.println("Hello, Java");
-  ```
+  - System.out.println() - 콘솔에 값 출력 기능
 
 ### 주석
 
-- 행 주석 - //
-- 범위 주석 - /_ ... _/
-- 도큐먼트 주석 - /\*_ ... _/ javadoc 명령어, API 도큐먼트 생성 시 사용
+- 한 줄 주석(single line comment) - //
+- 여러 줄 주석(multi line comment) - /* ... */
+- 도큐먼트 주석 - /**_ ... _/ javadoc 명령어, API 도큐먼트 생성 시 사용
+- 컴파일 과정에서 사라짐
