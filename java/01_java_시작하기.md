@@ -58,7 +58,7 @@
 
 1. HelloJava 프로그램 실행
 2. main() 메서드 실행 - 시작점
-3. System.out.println("hello java") 을 만나 문자열 hello java 출력
+3. System.out.println("hello java")을 만나 문자열 hello java 출력
 4. main() 메서드의 {} 블럭이 끝나면 프로그램 종료
 
 #### 클래스 선언
@@ -73,10 +73,12 @@
   - 범위를 나타냄
 
 #### 메소드 선언
+
 - main() 메소드 블록 - 중괄호 {...} 영역
   - 바이트코드 파일 실행 시 메소드 블록 실행 => 프로그램 실행 시작점
 
 #### 콘솔뷰에 출력
+
 - System.out.println() - 콘솔에 값 출력 기능
 
 ## 주석 
