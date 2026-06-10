@@ -3,13 +3,13 @@ package variable;
 public class Var7 {
 
     public static void main(String[] args) {
-        int a = 100; // 정수
-        double b = 10.5; // 실수
-        boolean c = true; // 불리언(boolean) true, false 입력 가능
-        char d = 'A'; // 문자 하나
-        String e = "Hello java"; // 문자열, 문자열을 다루기 위한 특별한 타입
+        int a = 100; //정수
+        double b = 10.5; //실수
+        boolean c = true; //불리언(boolean) true, false 입력 가능
+        char d = 'A'; //문자 하나
+        String e = "Hello java"; //문자열, 문자열을 다루기 위한 특별한 타입
 
-        // int z = "100"; // 따옴표로 감싸면 문자. 컴파일 에러
+        //int z = "100"; //따옴표로 감싸면 문자. 컴파일 에러
 
         System.out.println(a);
         System.out.println(b);
