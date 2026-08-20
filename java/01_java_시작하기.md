@@ -100,7 +100,7 @@
 
 [소스](src/CommentJava.java)
 
-- 한 줄 주석(single line comment) - //
-- 여러 줄 주석(multi line comment) - /* ... */
-- 도큐먼트 주석 - /**_ ... _/ javadoc 명령어, API 도큐먼트 생성 시 사용
+- 한 줄 주석(single line comment) - `//`
+- 여러 줄 주석(multi line comment) - `/* ... */`
+- 도큐먼트 주석 - `/**_ ... _/` javadoc 명령어, API 도큐먼트 생성 시 사용
 - 컴파일 과정에서 사라짐
