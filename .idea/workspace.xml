@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e25caaa-ba9e-421f-a395-f71aa93999e4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/cs/04-Programming-OS/02-Programming-Languages.md" afterDir="false" />
+    <list default="true" id="9e25caaa-ba9e-421f-a395-f71aa93999e4" name="Changes" comment="4과목(26.08.21F)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cs/04-Programming-OS/01-Server-Side-Development.md" beforeDir="false" afterPath="$PROJECT_DIR$/cs/04-Programming-OS/01-Server-Side-Development.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cs/04-Programming-OS/02-Programming-Languages.md" beforeDir="false" afterPath="$PROJECT_DIR$/cs/04-Programming-OS/02-Programming-Languages.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,35 +20,35 @@
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {}
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/slw13d-ly/study-notes.git&quot;,
-    &quot;accountId&quot;: &quot;235f7acf-99c8-4898-95ed-f2eb1cbefca1&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/slw13d-ly/study-notes.git",
+    "accountId": "7e69d579-4ca8-4970-8fd8-e8e6ccbc91b5"
   }
-}</component>
+}]]></component>
   <component name="KubernetesApiPersistence">{}</component>
   <component name="KubernetesApiProvider">{
   &quot;isMigrated&quot;: true
 }</component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0000195835250483" />
-      <entry key="MS500" value="1.114436971967917" />
-      <entry key="S2" value="1.6654708021976918" />
-      <entry key="S5" value="2.1762086300154575" />
-      <entry key="S10" value="2.5064663743741242" />
-      <entry key="S30" value="2.8122332855600263" />
-      <entry key="S60" value="2.903789866085728" />
-      <entry key="M2" value="3.051404597520158" />
-      <entry key="M5" value="5.487918956028258" />
-      <entry key="M10" value="12.317732848548829" />
-      <entry key="M15" value="18.169173759682838" />
-      <entry key="M30" value="28.425639454268378" />
-      <entry key="H1" value="36.30900141108802" />
-      <entry key="H2" value="41.242786577541104" />
-      <entry key="H4" value="44.00962795401423" />
-      <entry key="D1" value="46.48526497568055" />
-      <entry key="W1" value="46.92605513649797" />
+      <entry key="MS100" value="1.0039883286160438" />
+      <entry key="MS500" value="1.331253329132687" />
+      <entry key="S2" value="1.8341319496760198" />
+      <entry key="S5" value="2.7850030467969233" />
+      <entry key="S10" value="4.1727783441151365" />
+      <entry key="S30" value="6.254367201654085" />
+      <entry key="S60" value="7.048031731547884" />
+      <entry key="M2" value="7.502329346642166" />
+      <entry key="M5" value="7.8827723322952785" />
+      <entry key="M10" value="9.451114119486109" />
+      <entry key="M15" value="12.502011385622719" />
+      <entry key="M30" value="22.22311954174634" />
+      <entry key="H1" value="33.697547985981" />
+      <entry key="H2" value="42.69960944071969" />
+      <entry key="H4" value="48.36859118608855" />
+      <entry key="D1" value="53.82110417344354" />
+      <entry key="W1" value="54.82968587983755" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -70,23 +70,23 @@
       <entry key="W1" value="0.0" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9526558940850329" />
-      <entry key="MS500" value="1.1027318194003535" />
-      <entry key="S2" value="1.658223785210359" />
-      <entry key="S5" value="2.1698485488830905" />
-      <entry key="S10" value="2.501930330472387" />
-      <entry key="S30" value="2.810275077887271" />
-      <entry key="S60" value="2.902742666711692" />
-      <entry key="M2" value="3.0508534867320494" />
-      <entry key="M5" value="5.487625200243342" />
-      <entry key="M10" value="12.317503609487847" />
-      <entry key="M15" value="18.168975502713433" />
-      <entry key="M30" value="28.425499854846777" />
-      <entry key="H1" value="36.30891559648178" />
-      <entry key="H2" value="41.24273855067862" />
-      <entry key="H4" value="44.00960248712421" />
-      <entry key="D1" value="46.485260512662556" />
-      <entry key="W1" value="46.926054493340274" />
+      <entry key="MS100" value="0.9765611974122855" />
+      <entry key="MS500" value="1.3243487140131576" />
+      <entry key="S2" value="1.8318354027115347" />
+      <entry key="S5" value="2.7834044964747746" />
+      <entry key="S10" value="4.171427610803783" />
+      <entry key="S30" value="6.253634712536264" />
+      <entry key="S60" value="7.04761142033451" />
+      <entry key="M2" value="7.502103694016652" />
+      <entry key="M5" value="7.88267340378677" />
+      <entry key="M10" value="9.451037375565877" />
+      <entry key="M15" value="12.501929474450838" />
+      <entry key="M30" value="22.223033426645113" />
+      <entry key="H1" value="33.69747914304359" />
+      <entry key="H2" value="42.69956498479588" />
+      <entry key="H4" value="48.368565803185945" />
+      <entry key="D1" value="53.82109943720942" />
+      <entry key="W1" value="54.82968518986471" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -158,6 +158,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="4과목(26.08.21F)" />
+    <option name="LAST_COMMIT_MESSAGE" value="4과목(26.08.21F)" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
