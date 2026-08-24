@@ -15,8 +15,6 @@
 
 > ⭐ `DoS = 서버 자원·네트워크를 고갈시켜 서비스 불능`
 
----
-
 ### 2. Ping of Death(죽음의 핑)
 - **ICMP 패킷을 정상 크기보다 크게 만들어 전송**하는 공격
 - 인터넷 프로토콜의 패킷 크기 제한(65,536바이트)을 초과하는 데이터를 여러 IP 패킷으로 분할하여 전송
@@ -32,8 +30,6 @@
 
 > ⭐ `Ping of Death = 비정상적으로 큰 ICMP Packet`
 
----
-
 ### 3. SMURFING(스머핑)
 - **ICMP의 특성을 악용하여 엄청난 양의 데이터를 피해 시스템에 집중적으로 전송**하는 공격
 - 공격자는 송신 주소(Source IP)를 **공격 대상의 IP 주소로 위조**
@@ -45,8 +41,6 @@
 - ICMP Echo Request 관련 필터링
 
 > ⭐ `Smurf = Victim IP 위조 + Broadcast + ICMP 응답 폭주`
-
----
 
 ### 4. SYN Flooding
 - TCP의 **3-Way Handshake**를 악용
@@ -72,8 +66,6 @@ Client ─ ACK ─────→ Server
 
 > ⭐ `SYN Flooding = 3-Way Handshake 악용 + Half-Open Connection`
 
----
-
 ### 5. TearDrop
 - IP 패킷의 **Fragment Offset(분할 순서 정보)** 값을 조작하여 전송
 - 수신 시스템이 분할된 패킷을 재조립할 때 오류를 일으켜 시스템을 다운시키는 공격
@@ -83,8 +75,6 @@ Client ─ ACK ─────→ Server
 
 > ⭐ `TearDrop = Fragment Offset 조작 → 재조립 오류`
 
----
-
 ### 6. Land
 - 패킷의 **송신 IP와 수신 IP를 공격 대상의 IP 주소와 동일하게 설정**
 - 공격 대상이 자기 자신에게 응답을 반복하게 만들어 시스템을 마비
@@ -93,8 +83,6 @@ Client ─ ACK ─────→ Server
 - 송신 IP와 수신 IP의 적절성 검사
 
 > ⭐ `Land = Source IP = Destination IP = Victim IP`
-
----
 
 ### 7. DDoS(Distributed Denial of Service, 분산 서비스 거부)
 - 여러 대의 공격 시스템을 이용하여 **동시에 하나의 대상 시스템을 공격**
@@ -117,8 +105,6 @@ Agent(좀비 PC) 다수
 > ⭐ `DDoS = 여러 Agent가 동시에 공격`  
 > ⭐ `공격자 → Master/Handler → Agent → Victim`
 
----
-
 ### 8. 네트워크 침해 공격 관련 용어
 
 | 용어 | 핵심 |
@@ -135,8 +121,6 @@ Agent(좀비 PC) 다수
 
 > ⭐ `Smishing = SMS` / `Qshing = QR` / `Phishing = 위장 사이트·메일`
 
----
-
 ### 9. 블루투스(Bluetooth) 관련 공격
 
 | 용어 | 핵심 |
@@ -148,8 +132,6 @@ Agent(좀비 PC) 다수
 
 > ⭐ `BlueSnarf = 정보 탈취`  
 > ⭐ `BlueJacking = Spam Message`
-
----
 
 ### 10. 기타 보안 침해 공격 관련 용어
 
@@ -190,16 +172,12 @@ Agent(좀비 PC) 다수
 
 > ⭐ `보안 서버 = 개인정보 송·수신을 암호화`
 
----
-
 ### 2. 인증(Authentication)의 개념
 - 시스템 또는 네트워크에 로그인을 요청한 사용자가 **합법적인 사용자인지 확인하는 과정**
 - 인증된 사용자에게 요청한 자원의 접근 가능 여부를 결정하는 것 → **인가(Authorization)**
 
 > ⭐ `Authentication = 누구인가?`  
 > ⭐ `Authorization = 무엇을 사용할 수 있는가?`
-
----
 
 ### 3. 인증 수단
 - **지식 기반 인증(Something You Know)**
@@ -210,8 +188,6 @@ Agent(좀비 PC) 다수
   - 위치 기반 인증(Somewhere You Are)
 
 > ⭐ 인증 유형 → `Know / Have / Are / Do / Where`
-
----
 
 ### 4. 지식 기반 인증(Something You Know)
 - 사용자가 **기억하고 있는 정보**를 기반으로 인증
@@ -227,8 +203,6 @@ Agent(좀비 PC) 다수
 - 인터넷상에서 주민등록번호 대신 사용하는 **사이버 신원 확인 번호**
 
 > ⭐ `Something You Know = Password / Passphrase / i-PIN`
-
----
 
 ### 5. 소유 기반 인증(Something You Have)
 - 사용자가 **소유하고 있는 것**을 기반으로 인증
@@ -255,8 +229,6 @@ Agent(좀비 PC) 다수
 
 > ⭐ `Something You Have = Card / Token / OTP`
 
----
-
 ### 6. 생체 기반 인증(Something You Are)
 - 사용자의 **고유한 생체 정보**를 이용
 - 예
@@ -267,8 +239,6 @@ Agent(좀비 PC) 다수
   - 정맥 등
 
 > ⭐ `Something You Are = 생체 정보`
-
----
 
 ### 7. 기타 인증 기법
 
@@ -300,8 +270,6 @@ Agent(좀비 PC) 다수
 > ⭐ `보안 아키텍처 = 보안 요소·체계의 전체 구조`  
 > ⭐ `기밀성 + 무결성 + 가용성`
 
----
-
 ### 2. 관리적 / 물리적 / 기술적 보안
 
 | 구분 | 핵심 |
@@ -311,8 +279,6 @@ Agent(좀비 PC) 다수
 | **기술적 보안** | 사용자 인증·접근 제어·PC·서버·네트워크·DB 등 기술적 보호 |
 
 > ⭐ 보안 대책 → `관리적 / 물리적 / 기술적`
-
----
 
 ### 3. 보안 프레임워크(Security Framework)
 - 안전한 정보 시스템 환경을 유지하고 **보안 수준을 향상시키기 위한 체계**
@@ -340,13 +306,9 @@ Agent(좀비 PC) 다수
 
 > ⭐ `Log = 시스템에서 발생한 사건의 기록`
 
----
-
 ### 2. 리눅스(LINUX) 로그
 - 리눅스의 대부분 로그 파일은 **`/var/log` 디렉터리**에 저장
 - 로그 관련 설정은 주로 `syslog.conf` 등을 통해 관리
-
----
 
 ### 3. 리눅스의 주요 로그 파일
 
@@ -366,16 +328,12 @@ Agent(좀비 PC) 다수
 > ⭐ `secure = 인증·보안`  
 > ⭐ `xferlog = FTP`
 
----
-
 ### 4. 윈도우(Windows) 로그
 - Windows는 **이벤트 로그(Event Log)** 형식으로 시스템 로그 관리
 - **이벤트 뷰어(Event Viewer)**를 통해 확인
 - 실행
   - Windows의 이벤트 뷰어 이용
   - 제어판의 관리 도구 등에서 이벤트 뷰어 실행
-
----
 
 ### 5. Windows 이벤트 로그
 
@@ -405,8 +363,6 @@ Agent(좀비 PC) 다수
   - NAC
   - SSH 등
 
----
-
 ### 2. 방화벽(Firewall)
 - 기업이나 조직의 **내부 네트워크와 인터넷 사이**에 설치
 - 외부에서 내부로 들어오는 패킷을 검사하여 허용·차단
@@ -414,8 +370,6 @@ Agent(좀비 PC) 다수
 - 해킹 등 외부 공격으로부터 내부 네트워크를 보호
 
 > ⭐ `Firewall = 내부 ↔ 외부 경계에서 Packet 통제`
-
----
 
 ### 3. 침입 탐지 시스템(IDS; Intrusion Detection System)
 - 컴퓨터 시스템의 **비정상적인 사용·오용·남용을 실시간으로 탐지**
@@ -452,8 +406,6 @@ Agent(좀비 PC) 다수
 - Snort
 - Zeek 등
 
----
-
 ### 4. IDS의 설치 위치
 - **패킷이 라우터로 들어오기 전**
   - 네트워크에 시도되는 모든 공격 탐지 가능
@@ -468,8 +420,6 @@ Agent(좀비 PC) 다수
 
 > ⭐ IDS는 **보호 목적에 따라 여러 위치에 설치 가능**
 
----
-
 ### 5. 침입 방지 시스템(IPS; Intrusion Prevention System)
 - 방화벽과 침입 탐지 시스템의 장점을 결합한 개념
 - 비정상적인 트래픽을 탐지한 후 **자동으로 차단**
@@ -477,8 +427,6 @@ Agent(좀비 PC) 다수
 
 > ⭐ `IDS = 탐지·경고`  
 > ⭐ `IPS = 탐지 + 차단`
-
----
 
 ### 6. 데이터 유출 방지(DLP; Data Leakage/Loss Prevention)
 - 조직 내부의 중요 자료가 외부로 유출되는 것을 방지
@@ -492,8 +440,6 @@ Agent(좀비 PC) 다수
 
 > ⭐ `DLP = 내부 중요 정보의 외부 유출 방지`
 
----
-
 ### 7. 웹 방화벽(Web Firewall)
 - 일반 방화벽이 탐지하기 어려운 **웹 기반 공격**을 탐지·차단
 - 웹 서버 앞단에 설치
@@ -504,8 +450,6 @@ Agent(좀비 PC) 다수
 
 > ⭐ `Web Firewall = Web Attack(SQL Injection, XSS 등) 방어`
 
----
-
 ### 8. VPN(Virtual Private Network, 가상 사설 통신망)
 - 인터넷 등 **공중망을 전용 회선처럼 안전하게 이용**할 수 있도록 하는 기술
 - 암호화된 통신 구간을 만들어 데이터 보호
@@ -514,8 +458,6 @@ Agent(좀비 PC) 다수
 
 > ⭐ `VPN = Public Network 위에 암호화된 Private Tunnel`
 
----
-
 ### 9. NAC(Network Access Control)
 - 네트워크에 접속하는 내부 PC의 **MAC 주소·IP 등을 등록하여 허용된 사용자만 접근**
 - 내부 PC의 소프트웨어 사용 현황을 관리하여 불법 소프트웨어 설치 방지
@@ -523,8 +465,6 @@ Agent(좀비 PC) 다수
 - 네트워크에 접속한 비인가 시스템을 자동 검출·관리
 
 > ⭐ `NAC = Network 접속 단말을 인증·통제`
-
----
 
 ### 10. SSH(Secure Shell)
 - 다른 컴퓨터에
