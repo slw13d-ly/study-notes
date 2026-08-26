@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e25caaa-ba9e-421f-a395-f71aa93999e4" name="Changes" comment="4과목(26.08.21F)">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="9e25caaa-ba9e-421f-a395-f71aa93999e4" name="Changes" comment="1,2,3,5과목(26.08.22T)" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,23 +28,23 @@
 }</component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0039883286160438" />
-      <entry key="MS500" value="1.331253329132687" />
-      <entry key="S2" value="1.8341319496760198" />
-      <entry key="S5" value="2.7850030467969233" />
-      <entry key="S10" value="4.1727783441151365" />
-      <entry key="S30" value="6.254367201654085" />
-      <entry key="S60" value="7.048031731547884" />
-      <entry key="M2" value="7.502329346642166" />
-      <entry key="M5" value="7.8827723322952785" />
-      <entry key="M10" value="9.451114119486109" />
-      <entry key="M15" value="12.502011385622719" />
-      <entry key="M30" value="22.22311954174634" />
-      <entry key="H1" value="33.697547985981" />
-      <entry key="H2" value="42.69960944071969" />
-      <entry key="H4" value="48.36859118608855" />
-      <entry key="D1" value="53.82110417344354" />
-      <entry key="W1" value="54.82968587983755" />
+      <entry key="MS100" value="1.0000000000194693" />
+      <entry key="MS500" value="1.0073404994588406" />
+      <entry key="S2" value="1.6403355279864367" />
+      <entry key="S5" value="3.7580556556984392" />
+      <entry key="S10" value="6.341098830039842" />
+      <entry key="S30" value="10.341618688538507" />
+      <entry key="S60" value="11.967839977829236" />
+      <entry key="M2" value="12.926325314013717" />
+      <entry key="M5" value="13.641247484914592" />
+      <entry key="M10" value="15.313713453322508" />
+      <entry key="M15" value="18.389413125796366" />
+      <entry key="M30" value="28.13345671845555" />
+      <entry key="H1" value="39.63302648956508" />
+      <entry key="H2" value="48.65962275904651" />
+      <entry key="H4" value="54.34616470534084" />
+      <entry key="D1" value="59.81697633676577" />
+      <entry key="W1" value="60.829085879983545" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -68,23 +66,23 @@
       <entry key="W1" value="0.0" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9765611974122855" />
-      <entry key="MS500" value="1.3243487140131576" />
-      <entry key="S2" value="1.8318354027115347" />
-      <entry key="S5" value="2.7834044964747746" />
-      <entry key="S10" value="4.171427610803783" />
-      <entry key="S30" value="6.253634712536264" />
-      <entry key="S60" value="7.04761142033451" />
-      <entry key="M2" value="7.502103694016652" />
-      <entry key="M5" value="7.88267340378677" />
-      <entry key="M10" value="9.451037375565877" />
-      <entry key="M15" value="12.501929474450838" />
-      <entry key="M30" value="22.223033426645113" />
-      <entry key="H1" value="33.69747914304359" />
-      <entry key="H2" value="42.69956498479588" />
-      <entry key="H4" value="48.368565803185945" />
-      <entry key="D1" value="53.82109943720942" />
-      <entry key="W1" value="54.82968518986471" />
+      <entry key="MS100" value="0.9794202976058639" />
+      <entry key="MS500" value="1.0031496219761686" />
+      <entry key="S2" value="1.6381452660225413" />
+      <entry key="S5" value="3.7554264063923726" />
+      <entry key="S10" value="6.338696619671917" />
+      <entry key="S30" value="10.340257570523692" />
+      <entry key="S60" value="11.967045862112858" />
+      <entry key="M2" value="12.925894823276904" />
+      <entry key="M5" value="13.641061941808232" />
+      <entry key="M10" value="15.313592811930246" />
+      <entry key="M15" value="18.38930190348135" />
+      <entry key="M30" value="28.133355921337593" />
+      <entry key="H1" value="39.63295026581074" />
+      <entry key="H2" value="48.65957458925529" />
+      <entry key="H4" value="54.34613745668851" />
+      <entry key="D1" value="59.816971288008986" />
+      <entry key="W1" value="60.82908514532112" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -96,38 +94,51 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "main",
-    "junie.onboarding.icon.badge.shown": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/choiyujin/Documents/CODE/study-notes",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.jshint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.jshint": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "to.speed.mode.migration.done": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/choiyujin/Documents/CODE/study-notes&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/cs" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
+      <setting name="path" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="file://$PROJECT_DIR$" />
+      <setting name="debug" value="false" />
+      <setting name="addClasspath" value="true" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -169,7 +180,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="4과목(26.08.21F)" />
-    <option name="LAST_COMMIT_MESSAGE" value="4과목(26.08.21F)" />
+    <MESSAGE value="1,2,3,5과목(26.08.22T)" />
+    <option name="LAST_COMMIT_MESSAGE" value="1,2,3,5과목(26.08.22T)" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
