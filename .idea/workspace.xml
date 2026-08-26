@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e25caaa-ba9e-421f-a395-f71aa93999e4" name="Changes" comment="최종 정리" />
+    <list default="true" id="9e25caaa-ba9e-421f-a395-f71aa93999e4" name="Changes" comment="최종 정리">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cs/01-Software-Design/정보처리기사_1과목.md" beforeDir="false" afterPath="$PROJECT_DIR$/cs/01-Software-Design/정보처리기사_1과목.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cs/02-Software-Development/정보처리기사_2과목.md" beforeDir="false" afterPath="$PROJECT_DIR$/cs/02-Software-Development/정보처리기사_2과목.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cs/03-Database/정보처리기사_3과목.md" beforeDir="false" afterPath="$PROJECT_DIR$/cs/03-Database/정보처리기사_3과목.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cs/04-Programming-OS/정보처리기사_4과목.md" beforeDir="false" afterPath="$PROJECT_DIR$/cs/04-Programming-OS/정보처리기사_4과목.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cs/05-System-Security/정보처리기사_5과목.md" beforeDir="false" afterPath="$PROJECT_DIR$/cs/05-System-Security/정보처리기사_5과목.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -124,7 +131,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/cs" />
+      <recent name="$PROJECT_DIR$/cs/01-Software-Design" />
+      <recent name="$PROJECT_DIR$/cs/05-System-Security" />
+      <recent name="$PROJECT_DIR$/cs/04-Programming-OS" />
+      <recent name="$PROJECT_DIR$/cs/03-Database" />
+      <recent name="$PROJECT_DIR$/cs/02-Software-Development" />
     </key>
   </component>
   <component name="SharedIndexes">
