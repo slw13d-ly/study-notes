@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e25caaa-ba9e-421f-a395-f71aa93999e4" name="Changes" comment="1,2,3,5과목(26.08.22T)" />
+    <list default="true" id="9e25caaa-ba9e-421f-a395-f71aa93999e4" name="Changes" comment="마지막" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,23 +28,23 @@
 }</component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0000000000194693" />
-      <entry key="MS500" value="1.0073404994588406" />
-      <entry key="S2" value="1.6403355279864367" />
-      <entry key="S5" value="3.7580556556984392" />
-      <entry key="S10" value="6.341098830039842" />
-      <entry key="S30" value="10.341618688538507" />
-      <entry key="S60" value="11.967839977829236" />
-      <entry key="M2" value="12.926325314013717" />
-      <entry key="M5" value="13.641247484914592" />
-      <entry key="M10" value="15.313713453322508" />
-      <entry key="M15" value="18.389413125796366" />
-      <entry key="M30" value="28.13345671845555" />
-      <entry key="H1" value="39.63302648956508" />
-      <entry key="H2" value="48.65962275904651" />
-      <entry key="H4" value="54.34616470534084" />
-      <entry key="D1" value="59.81697633676577" />
-      <entry key="W1" value="60.829085879983545" />
+      <entry key="MS100" value="1.8211408980664672" />
+      <entry key="MS500" value="2.679789573546403" />
+      <entry key="S2" value="3.5243767766890692" />
+      <entry key="S5" value="5.672357418851803" />
+      <entry key="S10" value="8.274351580532048" />
+      <entry key="S30" value="12.307027255571168" />
+      <entry key="S60" value="13.94803431667009" />
+      <entry key="M2" value="14.915682635966656" />
+      <entry key="M5" value="15.63676977856862" />
+      <entry key="M10" value="17.31121747821334" />
+      <entry key="M15" value="20.387434066779907" />
+      <entry key="M30" value="30.131968126750955" />
+      <entry key="H1" value="41.63198770770999" />
+      <entry key="H2" value="50.65898778928236" />
+      <entry key="H4" value="56.34581081440763" />
+      <entry key="D1" value="61.816911517447764" />
+      <entry key="W1" value="62.82907646580272" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -66,23 +66,23 @@
       <entry key="W1" value="0.0" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9794202976058639" />
-      <entry key="MS500" value="1.0031496219761686" />
-      <entry key="S2" value="1.6381452660225413" />
-      <entry key="S5" value="3.7554264063923726" />
-      <entry key="S10" value="6.338696619671917" />
-      <entry key="S30" value="10.340257570523692" />
-      <entry key="S60" value="11.967045862112858" />
-      <entry key="M2" value="12.925894823276904" />
-      <entry key="M5" value="13.641061941808232" />
-      <entry key="M10" value="15.313592811930246" />
-      <entry key="M15" value="18.38930190348135" />
-      <entry key="M30" value="28.133355921337593" />
-      <entry key="H1" value="39.63295026581074" />
-      <entry key="H2" value="48.65957458925529" />
-      <entry key="H4" value="54.34613745668851" />
-      <entry key="D1" value="59.816971288008986" />
-      <entry key="W1" value="60.82908514532112" />
+      <entry key="MS100" value="1.7804430271522775" />
+      <entry key="MS500" value="2.664478158087751" />
+      <entry key="S2" value="3.5189553679725205" />
+      <entry key="S5" value="5.6684119468545635" />
+      <entry key="S10" value="8.271283801012025" />
+      <entry key="S30" value="12.30543988146028" />
+      <entry key="S60" value="13.947126049924387" />
+      <entry key="M2" value="14.915194752145931" />
+      <entry key="M5" value="15.636561193739572" />
+      <entry key="M10" value="17.311085304446916" />
+      <entry key="M15" value="20.387315154907906" />
+      <entry key="M30" value="30.131863484149168" />
+      <entry key="H1" value="41.63190956054162" />
+      <entry key="H2" value="50.658938657414204" />
+      <entry key="H4" value="56.34578308458022" />
+      <entry key="D1" value="61.816906388471075" />
+      <entry key="W1" value="62.82907571967964" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -127,19 +127,6 @@
       <recent name="$PROJECT_DIR$/cs" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
-      <setting name="path" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workDir" value="file://$PROJECT_DIR$" />
-      <setting name="debug" value="false" />
-      <setting name="addClasspath" value="true" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -181,7 +168,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="4과목(26.08.21F)" />
     <MESSAGE value="1,2,3,5과목(26.08.22T)" />
-    <option name="LAST_COMMIT_MESSAGE" value="1,2,3,5과목(26.08.22T)" />
+    <MESSAGE value="마지막" />
+    <option name="LAST_COMMIT_MESSAGE" value="마지막" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
